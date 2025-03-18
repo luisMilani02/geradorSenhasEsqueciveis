@@ -17,8 +17,14 @@ function criarSenha() {
 
         maiMinu = Math.floor(Math.random() * 3)
         iniFim = Math.floor(Math.random() * 2)
+            
+        if (senha.textContent.length >= 16) {
+            senha.style.fontSize = '20px';
+        } else {
+            senha.style.fontSize = '30px';
+        }
 
-        if (iniFim == 0) {
+        if (iniFim == 0) {  
             if (maiMinu == 1) {
                 let letraM = letras[letra].toString().toUpperCase()
                 senha.textContent = senha.textContent + num + letraM

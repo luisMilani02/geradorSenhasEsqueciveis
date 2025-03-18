@@ -14,10 +14,13 @@
 
     <main>
         <section class="card">
-            <label for="escolha">Escolha um valor de 8 a 32</label><br>
+            <label for="escolha" class="text">Escolha um valor de 8 a 32</label><br>
             <input type="range" name="escolha" id="escolha" min="4" max="16" onchange="val()" value="4">
-            <p>Senha de: <b><span id="valor">8</span></b> Caracteres</p>
+
+            <p class="text">Senha de: <b><span id="valor">8</span></b> Caracteres</p>
+            
             <button onclick="criarSenha()"><b>Gerar senha</b></button>
+            
             <h2>Sua senha esquecivel: <span id="senha">XXXXXXXX...</span></h2>
         </section>
     </main>

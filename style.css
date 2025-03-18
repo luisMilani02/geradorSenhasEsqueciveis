@@ -6,6 +6,7 @@
 :root {
     --branco: #F5EDF0;
     --preto: #151712;
+    --brancoClaro: #ffffff;
 }
 
 html {
@@ -63,13 +64,30 @@ button {
     text-transform: uppercase;
     border-radius: 30px;
     padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size:19px;
+    margin-bottom: 15px;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+}
+
+p {
+    font-size: 19px;
+    margin-bottom: 40px;
 }
 
 .card {
     padding: 60px 30px;
-    margin-top: 15vh;
-    border: 10px solid #0092E0;
-    border-radius: 60px;
+    margin-top: 20vh;
+    border: 2px solid var(--preto);
+    background-color: var(--brancoClaro);
+    border-radius: 40px;
 }
 
 #senha {
@@ -95,6 +113,7 @@ button {
     }
     
     .card {
+        margin-top: 14vh;
         padding: 60px 15px;
     }
 
