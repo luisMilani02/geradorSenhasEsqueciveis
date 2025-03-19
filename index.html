@@ -11,17 +11,17 @@
     <header>
         <h1>Gerador de Senhas Totalmente esqueciveis</h1>
     </header>
-
+    
     <main>
         <section class="card">
-            <label for="escolha" class="text">Escolha um valor de 8 a 12</label><br>
-            <input type="range" name="escolha" id="escolha" min="4" max="12" onchange="val()" value="4">
+            <label for="escolha" class="text">Escolha um valor de 8 a 24</label><br>
+            <input type="range" name="escolha" id="escolha" min="4" max="12" onchange="val()" value="8">
 
-            <p class="text">Senha de: <b><span id="valor">8</span></b> Caracteres</p>
+            <p class="text">Senha de: <b><span id="valor">16</span></b> Caracteres</p>
             
             <button onclick="criarSenha()"><b>Gerar senha</b></button>
             
-            <h2>Sua senha esquecivel: <span id="senha">XXXXXXXX...</span></h2>
+            <h2>Sua senha esquecivel: <span id="senha">XXXXXXXX</span></h2>
         </section>
     </main>
 
