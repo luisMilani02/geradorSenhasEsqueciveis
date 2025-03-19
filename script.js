@@ -38,6 +38,7 @@ function criarSenha() {
         }
     }
     
+    // Erro no codigo apartir desta linha
     if (larguraTela <= 380) {  // Telas menores que 380px
         console.log('Entrou na condição de tela <= 380px')
         if (tamSenha >= 23) {
@@ -67,5 +68,6 @@ function criarSenha() {
         console.log('Entrou na condição de tela >= 1000px')
         senha.style.fontSize = '35px';
     }
+    // Erro acaba aqui
         
 }
